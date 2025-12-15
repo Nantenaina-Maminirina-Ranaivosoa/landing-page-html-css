@@ -1,35 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, sans-serif; 
-    line-height: 1.6;
-    color: #333;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 :root {
-    --primary-color: #2c3e50;
-    --accent-color: #e74c3c;
-    --bg-light: #f4f4f4;
+  --primary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --bg-light: #f4f4f4;
 }
-section{
-    padding: 2rem;
+section {
+  padding: 2rem;
 }
-.programme-grid{
-    display: grid;
-    border: solid 2px black;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 2rem;
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+.programme-grid {
+  display: grid;
+  border: solid 1px black;
+  border-radius: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.form-newsletter {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.card{
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }

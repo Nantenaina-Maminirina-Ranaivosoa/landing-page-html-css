@@ -3,6 +3,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    background-color: rgba(232, 233, 233, 0.581);
 }
 nav ul{
     list-style: none;
